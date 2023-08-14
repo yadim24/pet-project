@@ -1,0 +1,43 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  height: 68px;
+  box-shadow:
+    0 1px 2px 0 rgba(0, 0, 0, 0.03),
+    0 1px 6px -1px rgba(0, 0, 0, 0.02),
+    0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.nav-item {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+.nav-item:hover::before,
+.nav-item-active::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  border: 2px solid #1677ff;
+  border-radius: 9999px;
+}
+
+.login {
+  position: absolute;
+  top: 16px;
+  right: 32px;
+}

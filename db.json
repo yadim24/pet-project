@@ -1,0 +1,156 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "task": "Поспать",
+      "isDone": true
+    },
+    {
+      "id": 2,
+      "task": "Поесть",
+      "isDone": true
+    },
+    {
+      "id": 3,
+      "task": "сходить в озон, забрать посылки и вернуться домой попить чаю",
+      "isDone": true
+    },
+    {
+      "task": "Выложить проект",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "task": "Добавить новую задачу",
+      "isDone": false,
+      "id": 6
+    },
+    {
+      "task": "попрыгать высоко",
+      "isDone": false,
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Беларусь",
+      "town": "Минск",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 1
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Россия",
+      "town": "Москва",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 2
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Беларусь",
+      "town": "Минск",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 3
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Россия",
+      "town": "Москва",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 4
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Россия",
+      "town": "Новосибирск",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 5
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Беларусь",
+      "town": "Бобруйск",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 6
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Россия",
+      "town": "Москва",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 7
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Россия",
+      "town": "Новосибирск",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 8
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Казахстан",
+      "town": "Астана",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 9
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Россия",
+      "town": "Москва",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 10
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Казахстан",
+      "town": "Караганда",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 11
+    },
+    {
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "birthday": "2000-01-01",
+      "country": "Россия",
+      "town": "Новосибирск",
+      "phone": "+76543210000",
+      "email": "example@example.com",
+      "id": 12
+    }
+  ]
+}

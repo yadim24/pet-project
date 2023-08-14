@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #cfd5e8;
+}
+
+.head {
+  background-color: #cfe3e8;
+  border-bottom: 1px solid #cfd5e8;
+}
+
+.row {
+  background-color: #f0f8ff;
+}
+
+.cell {
+  padding: 8px;
+  border-left: 1px solid #cfd5e8;
+  border-right: 1px solid #cfd5e8;
+}
+
+.center {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.create-task {
+  flex-grow: 1;
+  margin: 0 4px;
+}

@@ -1,0 +1,37 @@
+.dialog {
+  width: 60%;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: 3px 3px 10px;
+}
+
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-field {
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: right;
+}
+
+.header {
+  text-align: center;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 12px;
+}
