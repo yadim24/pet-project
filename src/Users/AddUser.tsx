@@ -146,11 +146,9 @@ export const AddUser = forwardRef<HTMLDialogElement, Props>(function AddUser(
               size={10}
               placeholder="Введите фамилию..."
             />
-            {errors.lastName && (
-              <span className={styles['error-message']}>
-                {errors.lastName.message}
-              </span>
-            )}
+            <span className={styles['error-message']}>
+              {errors.lastName ? errors.lastName.message : <>&nbsp;</>}
+            </span>
           </div>
           <div className={styles['input-field']}>
             <label htmlFor={`${id}-firstname`}>Имя</label>
@@ -161,11 +159,9 @@ export const AddUser = forwardRef<HTMLDialogElement, Props>(function AddUser(
               size={10}
               placeholder="Введите имя..."
             />
-            {errors.firstName && (
-              <span className={styles['error-message']}>
-                {errors.firstName.message}
-              </span>
-            )}
+            <span className={styles['error-message']}>
+              {errors.firstName ? errors.firstName.message : <>&nbsp;</>}
+            </span>
           </div>
           <div className={styles['input-field']}>
             <label htmlFor={`${id}-birthday`}>Дата рождения</label>
@@ -175,11 +171,9 @@ export const AddUser = forwardRef<HTMLDialogElement, Props>(function AddUser(
               {...register('birthday')}
             />
           </div>
-          {errors.birthday && (
-            <span className={styles['error-message']}>
-              {errors.birthday.message}
-            </span>
-          )}
+          <span className={styles['error-message']}>
+            {errors.birthday ? errors.birthday.message : <>&nbsp;</>}
+          </span>
           <div className={styles['input-field']}>
             <label htmlFor={`${id}-country`}>Страна</label>
             <Select id={`${id}-country`} {...register('country')}>
@@ -218,11 +212,9 @@ export const AddUser = forwardRef<HTMLDialogElement, Props>(function AddUser(
               size={10}
               placeholder="+71234567890"
             />
-            {errors.phone && (
-              <span className={styles['error-message']}>
-                {errors.phone.message}
-              </span>
-            )}
+            <span className={styles['error-message']}>
+              {errors.phone ? errors.phone.message : <>&nbsp;</>}
+            </span>
           </div>
           <div className={styles['input-field']}>
             <label htmlFor={`${id}-email`}>Email</label>
@@ -233,11 +225,9 @@ export const AddUser = forwardRef<HTMLDialogElement, Props>(function AddUser(
               size={10}
               placeholder="Введите Email..."
             />
-            {errors.email && (
-              <span className={styles['error-message']}>
-                {errors.email.message}
-              </span>
-            )}
+            <span className={styles['error-message']}>
+              {errors.email ? errors.email.message : <>&nbsp;</>}
+            </span>
           </div>
         </div>
         <div className={styles.button}>

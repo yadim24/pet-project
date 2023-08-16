@@ -68,11 +68,9 @@ export function Login({ onClose }: { onClose: () => void }): ReactElement {
             {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
             <label htmlFor={`${labelId}-login`}>Логин:</label>
             <Input id={`${labelId}-login`} type="text" {...register('login')} />
-            {errors.login && (
-              <span className={styles['error-message']}>
-                {errors.login.message}
-              </span>
-            )}
+            <span className={styles['error-message']}>
+              {errors.login ? errors.login.message : <>&nbsp;</>}
+            </span>
           </div>
           <div className={styles['popup-input']}>
             {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
@@ -82,11 +80,9 @@ export function Login({ onClose }: { onClose: () => void }): ReactElement {
               type="password"
               {...register('password')}
             />
-            {errors.password && (
-              <span className={styles['error-message']}>
-                {errors.password.message}
-              </span>
-            )}
+            <span className={styles['error-message']}>
+              {errors.password ? errors.password.message : <>&nbsp;</>}
+            </span>
           </div>
           <Button type="submit" disabled={!isValid}>
             Войти
